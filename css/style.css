@@ -508,6 +508,7 @@ h3 {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    
 }
 
 .sect_four-li {
@@ -1038,11 +1039,12 @@ h3 {
     .sect_four-ul{
         display: flex;
         flex-direction: column;
-        max-width: 288px;
+        
     }
 
     .sect_four-li{
         align-items: center;
+        max-width: 288px;
         
     }
 
@@ -1108,9 +1110,7 @@ h3 {
     .container {
         max-width: 768px;
     }
-    .addr{
-
-    }
+    /*header*/
 
     .address-ul{
         display: flex;
@@ -1126,23 +1126,17 @@ h3 {
     .header-btn{
     display: none;
     }
-
+     /*sect_two*/
     .sect_two-svg {
         display: none;
     }
 
     .sect_two-ul {
-        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
-
-    .sect_two-li {
-       
-        
-    }
-
-    li:nth-child(2){
-        margin-right: 0;
-    }
+    
     .sect_two-ul-title {
         color: var(#2E2F42);
         font-family: Roboto;
@@ -1158,7 +1152,49 @@ h3 {
         font-weight: 500;
         width: 356px;
     }
+    /*sect_three*/
 
+    .sect_three-ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    /*sect_four*/
+
+    .sect_four-ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .sect_four-li{
+        width: 356px;
+    }
+    /*footer*/
+    .main-box{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        padding-left: 92px;
+    }
+
+    .one-box{
+        margin-right: 24px;
+        margin-bottom: 72px;
+    }
+
+    .two-box{
+        margin-bottom: 72px;
+    }
+
+    .three-box{
+        margin-left: 0px;
+    }
+
+    .fotter-button{
+        margin-left: 0px;
+    }
 }
 
 @media screen and (min-width: 1158px) {
