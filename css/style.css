@@ -616,7 +616,8 @@ h3 {
 
 .footer-text {
     max-width: 264px;
-
+    height:72px ;
+    width: 264px;
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -761,9 +762,7 @@ h3 {
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
 
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
+    
     /*on/off modal window*/
 }
 
@@ -1104,6 +1103,17 @@ h3 {
         margin-left: 0;
         align-self: center;
     }
+  
+/*modal-window*/  
+     .modal-window{
+        max-width: 288px;
+        max-height: 623px;
+     }
+
+     .modal-button-boxsix{
+        margin: auto;
+     }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
